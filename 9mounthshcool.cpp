@@ -11,7 +11,7 @@ bool OnlyTextInput(const std::string& str)
     for (char const& c : str)
     {
         if (!std::isalpha(static_cast<unsigned char>(c)))
-        {
+        { 
             return false;
         }
     }
@@ -53,11 +53,6 @@ int getNumberInput()
         std::cerr << "Error: Invalid input. Please enter a valid number.\n";
         std::cout << RESET;
     }
-}
-
-auto addPizza(std::string a, int b, bool c)
-{
-    return a, b, c;
 }
 
 int main()

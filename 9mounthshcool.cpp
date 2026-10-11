@@ -30,7 +30,7 @@ std::string getTextInput()
                 return textInput;
             }
         }
-        std::cout << "Error! Only Text input";
+        std::cout << "Error! Only Text input\n";
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
